@@ -6,6 +6,8 @@ mod "puppetlabs/inifile",     '1.5.0'
 mod "puppetlabs/stdlib",      '4.11.0'
 mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/java",        '2.1.0'
+mod 'puppetlabs/apache',      '2.1.0'
+mod 'stahnma/epel',           '1.2.2'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
