@@ -27,6 +27,10 @@ mod 'ntp',
   :git => 'https://github.com/ericbisme/linuxacademy-ntp.git',
   :ref => 'master'
 
+mod 'nginx',
+  :git => 'https://github.com/ericbisme/linuxacademy-nginx.git',
+  :ref => 'production'
+
 mod 'role',
   :git => 'https://github.com/ericbisme/linuxacademy-role.git',
   :ref => 'master'
