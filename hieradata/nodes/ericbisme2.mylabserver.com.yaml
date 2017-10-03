@@ -1,12 +1,8 @@
 ---
-profile::apache::apache_vhost_servers: {
-  'ericbisme2.mylabserver.com': {
-    port: 80,
-    docroot: '/var/www/ericbisme2'
-  },
-  'ericbisme2b.mylabserver.com': {
-    port: 80,
-    docroot: '/var/www/ericbisme2b'
-  },
-}
-  
+profile::nginx::vhosts:
+  - 'fqdn': 'ericbisme2.mylabserver.com'
+    'port': 80
+    'server_aliases': ''
+  - 'fqdn': 'ericbisme2b.mylabserver.com'
+    'port': 80
+    'server_aliases': 'ericbisme2b1.mylabserver.com'
