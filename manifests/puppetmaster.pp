@@ -17,6 +17,8 @@ class { 'r10k::mcollective':
 # Instead of running via mco, run r10k directly
 class {'r10k::webhook::config':
   use_mcollective => false,
+  public_key_path  => '/etc/mcollective/server_public.pem',  # Mandatory for FOSS
+  private_key_path => '/etc/mcollective/server_private.pem', # Mandatory for FOSS
 }
 
 # The hook needs to run as root when not running using mcollective
