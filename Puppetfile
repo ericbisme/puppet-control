@@ -10,6 +10,7 @@ mod 'puppetlabs/vcsrepo',     '2.0.0'
 mod 'stahnma/epel',           '1.2.2'
 
 #Puppet Master Setup
+mod 'puppetlabs/puppetdb',    '6.0.1'
 mod 'puppet/r10k',            '6.2.0'
 mod 'puppetlabs/git',         '0.5.0'
 
