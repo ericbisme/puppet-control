@@ -3,7 +3,7 @@ forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-mod "puppetlabs/inifile",     '2.0.0'
+mod "puppetlabs/inifile",     '1.6.0'
 mod "puppetlabs/stdlib",      '4.20.0'
 mod "puppetlabs/concat",      '2.1.0'
 mod 'puppetlabs/vcsrepo',     '2.0.0'
