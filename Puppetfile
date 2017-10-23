@@ -12,9 +12,12 @@ mod 'stahnma/epel',           '1.2.2'
 #Puppet Master Setup
 mod 'puppetlabs/puppetdb',    '6.0.1'
 mod 'puppet/r10k',            '6.2.0'
+mod 'puppet/puppetboard',     '3.0.0'
+mod 'puppetlabs/apache',      '2.3.0'
 mod 'puppetlabs/git',         '0.5.0'
 mod 'puppetlabs/postgresql',  '5.2.0'
 mod 'puppetlabs-firewall',    '1.9.0'
+mod 'stankevich/python',      '1.18.2'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
